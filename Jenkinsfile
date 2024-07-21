@@ -1,11 +1,11 @@
 pipeline {
  agent any
  stages {
-    stage ('Checkout') {
-        steps {
-        git branch:'master', url: 'https://github.com/ScaleSec/vulnado.git'  
-        }
-    }
+    // stage ('Checkout') {
+    //     steps {
+    //     git branch:'master', url: 'https://github.com/ScaleSec/vulnado.git'  
+    //     }
+    // }
  
     stage ('Build') {
         steps {
